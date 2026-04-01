@@ -5,3 +5,5 @@ def add_password(site, login, password):
         "login": login,
         "password": password
     })
+def list_passwords():
+    return passwords
