@@ -11,3 +11,6 @@ def add_password(save(passwords)):
     })
 def list_passwords():
     return passwords
+if __name__ == "__main__":
+    add_password("gmail", "user", "1234")
+    print(list_passwords())
