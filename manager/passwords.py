@@ -1,5 +1,9 @@
+from manager.storage import load, save
+
+passwords = load()
+
 passwords = []
-def add_password(site, login, password):
+def add_password(save(passwords)):
     passwords.append({
         "site": site,
         "login": login,
